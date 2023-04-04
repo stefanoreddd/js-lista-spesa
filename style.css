@@ -2,6 +2,11 @@ body{
     text-align: center;
 }
 
+.div {
+    margin: auto;
+    width: 20%;
+}
+
 .flex{
     display: flex;
 }
