@@ -10,6 +10,7 @@ for (i = 0; i < listaSpesa.length; i++){
 
 while (i < listaSpesa.length){
     console.log(i+1 + ") " + listaSpesa[i]);
+    document.getElementById("listaDellaSpesa").innerHTML += `<li>${listaSpesa[i]}</li>`
     i++;
 }*/
 
