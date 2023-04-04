@@ -18,7 +18,9 @@ function spesaButton () {
 
     listaSpesa.push(spesaAddOne);
 
-    document.getElementById("listaDellaSpesa").innerHTML += `<li>${listaSpesa[(listaSpesa.length - 1)]}</li>`;
+    document.getElementById("listaDellaSpesa").innerHTML += `<li>${listaSpesa[i]}</li>`;
+
+    console.log("Added an item to the list.")
 }
 
 document.getElementById("buttonAdd").addEventListener("click", spesaButton);
